@@ -27,6 +27,8 @@ export default{
   <div class="bg-dark text-white gg">
     <TheHeader/>
     <hr>
+
+    <RouterView :projects="projects"></RouterView>
     <ProjectsCard :projects="projects"/>
     
   </div>
