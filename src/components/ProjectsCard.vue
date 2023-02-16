@@ -12,11 +12,11 @@ export default{
           <div class="d-flex">
             
             <div class="ms-4">Tags:</div>
-            <div class="ms-2" v-for="tags in project.types">
-            {{tags.type}}
+            <div class="ms-2" v-for="tag in project.types">
+            {{tag.type}}
             </div>
           </div>
-          <a href="">Show</a>
+          <a href="">Show </a>
         </li>
       </ul>
     </div>
